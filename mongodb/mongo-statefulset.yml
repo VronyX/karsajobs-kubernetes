@@ -25,7 +25,7 @@ spec:
         command:
           - mongod
           - "--config"
-          - "/config/mongod.conf"
+          - "/config/mongo.conf"
         env:
         - name: MONGO_INITDB_ROOT_USERNAME_FILE
           value: /etc/mongo-credentials/MONGO_ROOT_USERNAME
